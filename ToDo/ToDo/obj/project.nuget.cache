@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "6XCqiow1VYI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lenovo\\RiderProjects\\ToDo\\ToDo\\ToDo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\Lenovo\\RiderProjects\\ToDo\\ToDo\\ToDo.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Lenovo\\RiderProjects\\ToDo\\ToDo\\ToDo.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
