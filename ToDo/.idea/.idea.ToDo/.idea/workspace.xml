@@ -9,9 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bd66abe-73dc-4918-b90d-06468c105946" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToDo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToDo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDo/Data/AddDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo/Data/AddDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDo/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +24,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="emptyBranche" />
+        <entry key="$PROJECT_DIR$/.." value="main" />
         <entry key="$PROJECT_DIR$/ToDo" value="master" />
       </map>
     </option>
@@ -158,7 +156,7 @@
       <workItem from="1786265972118" duration="773000" />
       <workItem from="1786519248697" duration="153000" />
       <workItem from="1789281679965" duration="2449000" />
-      <workItem from="1789534625128" duration="11840000" />
+      <workItem from="1789534625128" duration="12137000" />
     </task>
     <task id="LOCAL-00001" summary="Create .gitignore">
       <option name="closed" value="true" />
@@ -192,7 +190,23 @@
       <option name="project" value="LOCAL" />
       <updated>1786084561786</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add EfCore">
+      <option name="closed" value="true" />
+      <created>1789547751990</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1789547751990</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add">
+      <option name="closed" value="true" />
+      <created>1789547930052</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1789547930052</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +234,9 @@
     <MESSAGE value="Add empty line after app.UseHttpsRedirection();" />
     <MESSAGE value="add empty controler,servic,model" />
     <MESSAGE value="add.properti" />
-    <option name="LAST_COMMIT_MESSAGE" value="add.properti" />
+    <MESSAGE value="add EfCore" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
