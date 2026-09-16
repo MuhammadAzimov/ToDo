@@ -8,7 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bd66abe-73dc-4918-b90d-06468c105946" name="Changes" comment="" />
+    <list default="true" id="7bd66abe-73dc-4918-b90d-06468c105946" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToDo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToDo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDo/Data/AddDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo/Data/AddDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDo/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDo/appsettings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,31 +27,35 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="emptyBranche" />
+        <entry key="$PROJECT_DIR$/ToDo" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ToDo" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "muhammadazimov09990-ai"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;muhammadazimov09990-ai&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/muhammadazimov09990-ai/ToDo.git",
-    "accountId": "006c4a82-a844-486e-9147-5c07939b1342"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/muhammadazimov09990-ai/ToDo.git&quot;,
+    &quot;accountId&quot;: &quot;006c4a82-a844-486e-9147-5c07939b1342&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ToDo/Controler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDo/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ToDo/TaskControler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDo/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ToDo/obj/project.packagespec.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3HRE2JahfOenf0disU21933CCiU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -60,7 +68,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,6 +82,38 @@
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ToDo/ToDo.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
       <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="ToDo: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ToDo/ToDo.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="ToDo: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ToDo/ToDo.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
@@ -111,6 +151,14 @@
       <option name="presentableId" value="Default" />
       <updated>1785822275132</updated>
       <workItem from="1785822276871" duration="6965000" />
+      <workItem from="1785987116009" duration="2873000" />
+      <workItem from="1786078324898" duration="710000" />
+      <workItem from="1786082838428" duration="1903000" />
+      <workItem from="1786189419182" duration="5665000" />
+      <workItem from="1786265972118" duration="773000" />
+      <workItem from="1786519248697" duration="153000" />
+      <workItem from="1789281679965" duration="2449000" />
+      <workItem from="1789534625128" duration="11840000" />
     </task>
     <task id="LOCAL-00001" summary="Create .gitignore">
       <option name="closed" value="true" />
@@ -128,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785825172786</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add empty controler,servic,model">
+      <option name="closed" value="true" />
+      <created>1785855842455</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1785855842455</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add.properti">
+      <option name="closed" value="true" />
+      <created>1786084561785</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1786084561786</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +218,9 @@
     <MESSAGE value="change local project" />
     <MESSAGE value="Create .gitignore" />
     <MESSAGE value="Add empty line after app.UseHttpsRedirection();" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add empty line after app.UseHttpsRedirection();" />
+    <MESSAGE value="add empty controler,servic,model" />
+    <MESSAGE value="add.properti" />
+    <option name="LAST_COMMIT_MESSAGE" value="add.properti" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
