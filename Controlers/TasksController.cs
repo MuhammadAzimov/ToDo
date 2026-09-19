@@ -35,7 +35,6 @@ public class TasksController : ControllerBase
         return Ok(task);
     }
 
-    // POST: api/Tasks
     [HttpPost]
     public async Task<IActionResult> Create(TaskItem task)
     {
@@ -45,7 +44,6 @@ public class TasksController : ControllerBase
         return Ok(task);
     }
 
-    // PUT: api/Tasks/1
     [HttpPut("{id}")]
     public async Task<IActionResult> Update(int id, TaskItem task)
     {
