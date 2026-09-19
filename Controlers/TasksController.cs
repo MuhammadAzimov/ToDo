@@ -16,7 +16,6 @@ public class TasksController : ControllerBase
         _context = context;
     }
 
-    // GET: api/Tasks
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
@@ -25,7 +24,6 @@ public class TasksController : ControllerBase
         return Ok(tasks);
     }
 
-    // GET: api/Tasks/1
     [HttpGet("{id}")]
     public async Task<IActionResult> GetById(int id)
     {
@@ -64,8 +62,7 @@ public class TasksController : ControllerBase
 
         return Ok(existingTask);
     }
-
-    // DELETE: api/Tasks/1
+    
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {
