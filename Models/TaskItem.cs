@@ -9,4 +9,11 @@ public class TaskItem
     public string Description { get; set; } = "";
 
     public bool IsCompleted { get; set; } = false;
+
+    public DateTime? DueDate { get; set; }
+    
+    public int? CategoryId { get; set; }
+
+    public Category? Category { get; set; }
+
 }
