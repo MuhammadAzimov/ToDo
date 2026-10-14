@@ -12,4 +12,5 @@ public class AppDbContext : DbContext
     }
 
     public DbSet<TaskItem> Tasks { get; set; }
+    public DbSet<Category> Categories { get; set; } = null!;
 } 
