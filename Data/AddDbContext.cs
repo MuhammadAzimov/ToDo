@@ -3,7 +3,7 @@ using ToDo.Models;
 
 namespace ToDo.Data;
 
-public class AppDbContext : DbContext
+public class  AppDbContext : DbContext
 {
     
     public AppDbContext(DbContextOptions<AppDbContext> options )
@@ -13,4 +13,15 @@ public class AppDbContext : DbContext
 
     public DbSet<TaskItem> Tasks { get; set; }
     public DbSet<Category> Categories { get; set; } = null!;
+    
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        modelBuilder.Entity<TaskItem>()
+            .HasOne(t => t.Category)
+            .WithMany(c => c.TaskItems)
+            .HasForeignKey(t => t.CategoryId)
+            .OnDelete(DeleteBehavior.Cascade); 
+    }
 } 

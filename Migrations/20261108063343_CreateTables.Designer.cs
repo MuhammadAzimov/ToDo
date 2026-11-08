@@ -12,8 +12,8 @@ using ToDo.Data;
 namespace ToDo.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20261014112951_AddCategories")]
-    partial class AddCategories
+    [Migration("20261108063343_CreateTables")]
+    partial class CreateTables
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -50,7 +50,10 @@ namespace ToDo.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("CategoryId")
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("CatergoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
@@ -63,6 +66,9 @@ namespace ToDo.Migrations
                     b.Property<bool>("IsCompleted")
                         .HasColumnType("tinyint(1)");
 
+                    b.Property<int>("Priority")
+                        .HasColumnType("int");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -71,16 +77,31 @@ namespace ToDo.Migrations
 
                     b.HasIndex("CategoryId");
 
+                    b.HasIndex("CatergoryId");
+
                     b.ToTable("Tasks");
                 });
 
             modelBuilder.Entity("ToDo.Models.TaskItem", b =>
                 {
                     b.HasOne("ToDo.Models.Category", "Category")
+                        .WithMany("TaskItems")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ToDo.Models.Category", "Catergory")
                         .WithMany()
-                        .HasForeignKey("CategoryId");
+                        .HasForeignKey("CatergoryId");
 
                     b.Navigation("Category");
+
+                    b.Navigation("Catergory");
+                });
+
+            modelBuilder.Entity("ToDo.Models.Category", b =>
+                {
+                    b.Navigation("TaskItems");
                 });
 #pragma warning restore 612, 618
         }
