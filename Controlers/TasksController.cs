@@ -8,7 +8,7 @@ namespace ToDo.Controllers;
 [ApiController]
 [Route("api/[controller]")]
 public class TasksController : ControllerBase
-{
+{ 
     private readonly AppDbContext _context;
 
     public TasksController(AppDbContext context)
@@ -16,12 +16,12 @@ public class TasksController : ControllerBase
         _context = context;
     }
 
-    [HttpGet]
+    [HttpGet] 
     public async Task<IActionResult> GetAll()
     {
         var tasks = await _context.Tasks.ToListAsync();
 
-        return Ok(tasks);
+        return Ok(tasks); 
     }
 
     [HttpGet("{id}")]
